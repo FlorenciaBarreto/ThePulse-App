@@ -1,0 +1,126 @@
+
+/* Start With Lando */
+
+.get-started-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 980px;
+    height: auto;
+}
+
+/* .left-side-lando{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+} */
+  
+.text-area-lando {
+    max-width: 50%;
+    padding: 15px;
+}
+  
+.text-area-lando h1 {
+    font-size:50px ; 
+    color: #333; 
+    margin-bottom: 0.5em;
+}
+  
+.text-area-lando p {
+    font-size: 1em; 
+    color: #666;
+    margin-bottom: 1em;
+    margin-top: -1rem;
+}
+  
+
+.sign-up-button {
+    padding: 10px 20px;
+    background-color: #0066ff; 
+    color: #fff; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 2rem; 
+    width: 225px;
+    height: 50px;
+}
+  
+.sign-up-button:hover {
+    background-color: #0056e0; 
+}
+  
+.graphic-area {
+    max-width: 50%; 
+}
+  
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    color: #333;
+    width: 980px;
+    height: 300px;
+    border-top: 2px solid lightgrey;
+  }
+  .logo-footer{
+    margin:0;
+  }
+
+  .footer-section p {
+    margin-bottom: 10px;
+    margin-top:-15px;
+    margin-left: 10px;
+  }
+  
+  .footer-section ul {
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 2rem;
+}
+  
+
+.footer-section{
+    margin-left: -5rem;
+}
+
+#footer-last {
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 2rem;
+
+}
+
+  .footer-section ul li {
+    line-height: 1.6; 
+  }
+  
+  .footer-section ul li a {
+    color: #333; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+  }
+  
+  .footer-section ul li a:hover {
+    color: #000; 
+  }
+  
+

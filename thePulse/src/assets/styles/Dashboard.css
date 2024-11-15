@@ -1,0 +1,125 @@
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.dashboard-container table td.participantes {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+/* Lo que me dice CHATGPT */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Añadir un poco de espacio arriba */
+}
+
+th, td {
+    padding: 16px; /* Aumentar padding para más espacio */
+    border-bottom: 2px solid #eee; /* Línea más sutil */
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8; /* Color más suave */
+    color: #333; /* Color de texto que da contraste pero no es duro */
+    font-weight: 600; /* Ligeramente más grueso para destacar */
+}
+
+button {
+    /* Tus estilos actuales */
+    padding: 10px 15px; /* Más espacio dentro del botón */
+    border: none; /* Eliminar bordes predeterminados */
+    border-radius: 5px; /* Bordes redondeados para un look más moderno */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+button:hover {
+    opacity: 0.8; /* Cambio sutil al pasar el cursor */
+}
+
+
+
+
+.dashboard-container button:nth-child(3) {
+    background-color: #555; /* Un neutro para una acción secundaria */
+    color: white;
+}
+
+.dashboard-container table td.participantes {
+    /* Tus estilos actuales */
+    font-weight: 500; /* Puedes añadir un poco de grosor al número de participantes */
+}
+
+/* Añade estilos para los estados hover de las filas */
+tbody tr:hover {
+    background-color: #f5f5f5; /* Cambio sutil de color de fondo */
+}
+
+  /* ProgressBar */
+  .circular-progress-bar {
+    /* transform: rotate(-90deg); */
+    transform-origin: 50% 50%;
+  }
+  
+  .progress-ring__circle {
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+  
+
+  .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+  }
+  
+  .modal-content {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

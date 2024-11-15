@@ -1,0 +1,116 @@
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: -2rem;
+}
+
+.contact-us-image-container img{
+  width: 567px;
+  height: 715px;
+}
+
+.contact-us-header {
+  width: 100%;
+  text-align: left;
+}
+
+.contact-us-header h1 {
+    color: #030303;
+    font-size: 2.5em;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 0;
+}
+
+.contact-us-header p {
+  color: #030303;
+  font-size: 1.2em;
+  line-height: 26px;
+}
+  
+.contact-us-form {
+  display: flex;
+  background-color: transparent;
+  padding: 20px;
+  width: 100%;
+  flex-direction: column;
+
+}
+  
+  .form-group-contactus {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+  }
+  
+  .form-group-contactus label {
+    color: #030303;
+    font-size: 16px;
+  
+    letter-spacing: -0.1px;
+    line-height: 21px;
+  }
+  
+  .form-group-contactus input,
+  .form-group-contactus textarea {
+    top: 434px;
+    left: 814px;
+    width: 412px;
+    height: 60px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #030303;
+    font-size: 16px;
+    font-family: "Poppins";
+    line-height: 21px;
+    outline: none;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .send-message-button {
+  cursor: pointer;
+  top: 792px;
+  left: 814px;
+  width: 412px;
+  height: 53px;
+  padding: 0px 8px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #3164f4;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  outline: none;
+}
+  
+  .send-message-button:hover {
+    background-color: #004494;
+  }
+  
+  .contact-us-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+  
+
+
+
+  .form-group-contactus textarea {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    height: 120px;
+  }

@@ -1,0 +1,160 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    min-width: 1010px;
+}
+
+.class-code {
+    width: 200px;
+    height: 35px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 90%;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    /* margin: 0.5rem; */
+    width: 45rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: rgb(105, 87, 221);
+}
+
+.login-actions {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon-link2 svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon-link2 {
+    display: flex;
+    margin: 2px;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 0.25rem;
+}
+
+.icon-link3 {
+    display: flex;
+    margin: 2px;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 0.25rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 1.2rem;
+    transition: box-shadow 0.3s ease;
+    font-size: 12px;
+}
+
+.btn:hover,
+.btn:focus {
+    outline: none;
+}
+
+.btn-code:hover,
+.btn-code:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+
+.right-wrapper-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 2rem; */
+    /* width: 12.5rem; */
+}
+
+.btn-code {
+    display: flex;
+    border: 0.5px solid blue;
+    background-color: white;
+    padding: 5px 20px;
+    font-weight: 600;
+    color: black;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 12px;
+}
