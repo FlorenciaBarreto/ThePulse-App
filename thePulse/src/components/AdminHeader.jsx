@@ -32,18 +32,22 @@ const AdminHeader = () => {
       */}
       <div className="login-actions">
         <div className='user-profile'>
+          {/* este div es el de la tuerca */}          
           <Link to="/dashboard" className="icon-link3">
           <img src={IcoSetting} alt="Logo de la compañía" className="logo" />
           </Link>
         </div>
+
         <div className='user-profile'>
-          <Link to="/dashboard" className="icon-link2">
-        
-          <p>Mis diagnósticos</p>
+          {/* este div es el de diagnosticos */}
+          <Link to="/dashboard" className="icon-link2">        
+          <p class="misdiagnosticos">Mis diagnósticos</p>
           <img src={IcoBook} alt="Logo de la compañía" className="logo" />
           </Link>
         </div>
+
         <div className='user-profile'>
+          {/* este div es el de la campana */}
           <Link to="/dashboard" className="icon-link3">
           <img src={IcoNotifi} alt="Logo de la compañía" className="logo" />
           </Link>
