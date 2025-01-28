@@ -212,10 +212,11 @@ const PricingTable = () => {
 
   return (
     <div className="pricing-table">
+      <h3 class="pricing-table-title">Comparativa</h3>
       <table>
         <thead>
           <tr>
-            <th>Comparativa</th>
+            <th></th>
             {plans.map((plan) => (
               <th key={plan.name}>{plan.name}</th>
             ))}
