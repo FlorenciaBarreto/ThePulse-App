@@ -295,7 +295,7 @@
 }
 
 button {
-    background-color: blue;
+    background-color: #0857be;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -319,6 +319,7 @@ button:hover {
     display: flex;
     position: relative;
     min-width: 1200px;
+    justify-content: center;
 }
 
 .logo-background {

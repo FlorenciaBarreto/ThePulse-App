@@ -146,10 +146,7 @@ import React, { useContext } from 'react';
         },
        {
          title: 'Cobres y Metales',
-         items:[
-             'Región',
-             'Género',
-             'Edad',
+         items:[   
              'Nivel de estudios',
              'Tipo de contrato',
              '¿Jefatura? (Sí / No)',

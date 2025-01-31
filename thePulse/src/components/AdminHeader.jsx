@@ -32,7 +32,7 @@ const AdminHeader = () => {
       */}
       <div className="login-actions">
         <div className='user-profile'>
-          {/* este div es el de la tuerca */}          
+          {/* este div es el de la tuerca */}
           <Link to="/dashboard" className="icon-link3">
           <img src={IcoSetting} alt="Logo de la compañía" className="logo" />
           </Link>

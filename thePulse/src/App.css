@@ -14,62 +14,65 @@
 
  /* Estilos por defecto para dispositivos más grandes */
 
-#root{
-   display: flex;
+ #root{
+  display: flex;
 
 
 }
 body {
-  background-color: rgb(237, 237, 237);
-  font-family: "Poppins", sans-serif;
+ background-color: rgb(237, 237, 237);
+ font-family: "Poppins", sans-serif;
 }
 
 .App {
-  max-width: 1200px; /* o la anchura máxima que prefieras */
-  margin: 0 auto; /* Centrar la aplicación si la pantalla es más ancha */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ /*max-width: 1200px;  o la anchura máxima que prefieras */
+ max-width: 90%;    /*⚪⚪⚪⚪⚪⚪⚪*/
+ width: 85%;        /*⚪⚪⚪⚪⚪⚪⚪*/
+ margin: 0 auto; /* Centrar la aplicación si la pantalla es más ancha */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
+
 /* styles.css */
 .modal-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.1); /* Fondo negro con 50% de transparencia */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000; /* Asegura que el modal esté por encima de otros elementos */
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(0, 0, 0, 0.1); /* Fondo negro con 50% de transparencia */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 1000; /* Asegura que el modal esté por encima de otros elementos */
 }
 
 .modal-content {
-  max-height: 80vh; /* Altura máxima del modal respecto a la altura de la ventana */
-  overflow-y: auto; /* Permitir desplazamiento vertical */
+ max-height: 80vh; /* Altura máxima del modal respecto a la altura de la ventana */
+ overflow-y: auto; /* Permitir desplazamiento vertical */
 }
 
 .modal-image {
-  width: 100%;
-  max-height: 300px;
-  object-fit: contain;
-  
+ width: 100%;
+ max-height: 300px;
+ object-fit: contain;
+ 
 }
 
 /* Estilos para dispositivos con un ancho máximo de 768px (tablets) */
 @media (max-width: 768px) {
-  .App {
-    width: 100%; /* Ocupar el ancho completo de la pantalla */
-    padding: 20px; /* Agregar un poco de espacio alrededor del contenido */
-  }
+ .App {
+   width: 100%; /* Ocupar el ancho completo de la pantalla */
+   padding: 20px; /* Agregar un poco de espacio alrededor del contenido */
+ }
 }
 
 /* Estilos para dispositivos con un ancho máximo de 480px (teléfonos móviles) */
 @media (max-width: 480px) {
-  .App {
-    width: 100%;
-    padding: 10px; /* Espacio reducido para pantallas más pequeñas */
-  }
+ .App {
+   width: 100%;
+   padding: 10px; /* Espacio reducido para pantallas más pequeñas */
+ }
 }
